@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>魂游助手 - 技术支持</title>
+    <meta name="description" content="魂游助手技术支持、用户协议与隐私政策。" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #101114;
+        --panel: #191b20;
+        --text: #f4efe5;
+        --muted: #b5ada0;
+        --line: rgba(255, 255, 255, 0.12);
+        --accent: #d7b56d;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+      }
+      main {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+      header {
+        padding-bottom: 28px;
+        border-bottom: 1px solid var(--line);
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(32px, 6vw, 56px);
+        letter-spacing: 0;
+      }
+      h2 {
+        margin: 32px 0 12px;
+        font-size: 22px;
+      }
+      p, li { color: var(--muted); }
+      a { color: var(--accent); }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        margin-top: 24px;
+      }
+      .card {
+        min-height: 148px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .card h2 { margin-top: 0; }
+      footer {
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>魂游助手</h1>
+        <p>魂游助手是一款面向 iOS 用户的游戏攻略、地图标记、图鉴查询与进度同步工具。</p>
+      </header>
+
+      <section class="cards" aria-label="支持入口">
+        <article class="card">
+          <h2>技术支持</h2>
+          <p>使用中遇到账号、同步、地图、图鉴或购买问题，请发送邮件至 <a href="mailto:ghxdz345@163.com">ghxdz345@163.com</a>。</p>
+        </article>
+        <article class="card">
+          <h2>隐私政策</h2>
+          <p>了解我们如何处理登录、云同步、社区内容、购买记录和基础诊断信息。</p>
+          <p><a href="./privacy.html">查看隐私政策</a></p>
+        </article>
+        <article class="card">
+          <h2>用户协议</h2>
+          <p>了解魂游助手的使用规则、账号要求、打赏功能和责任说明。</p>
+          <p><a href="./terms.html">查看用户协议</a></p>
+        </article>
+      </section>
+
+      <section>
+        <h2>常见问题</h2>
+        <p>如果邮箱注册后无法登录，请先完成确认邮件中的验证步骤。若没有收到邮件，请检查邮箱拦截规则，并联系我们协助排查。</p>
+        <p>累计打赏满 12 元人民币或等值金额后，可在当前账号下开启无广告功能。该权益与 Apple App Store 的购买记录及应用账号状态相关。</p>
+      </section>
+
+      <footer>
+        <p>ICP备案/许可证编号：皖ICP备2026012724号</p>
+        <p>最后更新：2026 年 5 月 11 日</p>
+      </footer>
+    </main>
+  </body>
+</html>
